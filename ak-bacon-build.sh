@@ -16,12 +16,12 @@ DEFCONFIG="ak_bacon_defconfig"
 
 # Kernel Details
 BASE_AK_VER="AK"
-VER=".044.OPO.CM12"
+VER=".TEST.OPO.CM12"
 AK_VER="$BASE_AK_VER$VER"
 
 # Vars
 export LOCALVERSION=~`echo $AK_VER`
-export CROSS_COMPILE=${HOME}/android/AK-linaro/4.7.3-2013.04.20130415/bin/arm-linux-gnueabihf-
+export CROSS_COMPILE=${HOME}/android/AK-robbieL811-sabermod/bin/arm-eabi-
 export ARCH=arm
 export SUBARCH=arm
 export KBUILD_BUILD_USER=ak
